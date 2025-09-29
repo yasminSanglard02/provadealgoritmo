@@ -4,6 +4,8 @@ let cadeiras = Array(4).fill().map(() => Array(4).fill(false));
 
 function mostrarCadeiras() {
     console.log ('\nLayout das cadeiras:\n');
+    console.log('      TELA DE CINEMA');
+    console.log('      ==============\n');
     for (let i = 0; i < 4; i++) {
         let linha = '';
         for (let j = 0; j < 4; j++){
